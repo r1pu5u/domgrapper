@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="domgrapper.css" />
+  </head>
+
+  <body>
+    <div class="contents">
+      <table class="form-input">
+        <form action="">
+          <tr>
+            <td>
+              <input type="checkbox" id="regex" name="regex" value="regex">
+              <label for="regex">Use Regex</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="domain" placeholder="Insert Domain or regex" name="greppping">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="save" id="save" type="button">Save</button>
+            </td>
+          </tr>
+        </form>
+      </table>
+
+      <div class="add-new">
+        <button id="add" class="add-btn">add</button>
+      </div>
+
+      <div id="popup-content">
+      </div>
+      <button type="reset" id="resets" data-domain="resets">Reset</button>
+    </div>
+    <script src="domgrapper.js"></script>
+  </body>
+</html>

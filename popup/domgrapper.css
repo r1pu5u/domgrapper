@@ -1,0 +1,85 @@
+html, body {
+    width: 230px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    border: none;
+    width: 95%;
+    margin: 1% auto;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #E5F2F2;
+  }
+  
+  button:hover {
+    background-color: #CFF2F2;
+  }
+  
+  button[type="reset"] {
+    background-color: #FBFBC9;
+  }
+  
+  button[type="reset"]:hover {
+    background-color: #EAEA9D;
+  }
+
+  .form-input {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    border: 0.5px solid gray;
+    display: none;
+  }
+
+
+
+  .search input {
+    border-radius: 5px;
+    width: 96%;
+  }
+
+  .close-btn {
+    background-color: #b33f64;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+
+  .add-btn {
+    height: 35px;
+    border-radius: 9px;
+    margin-bottom: 25px;
+    background-color: #349f6f;
+  }
+
+  .add-btn:hover {
+    background-color: #41956f;
+  }
+
+  .close-btn:hover {
+    background-color: #971b42;
+  }
+
+  .count-btn {
+    position: relative;
+  }
+  
+  .count-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 2px 5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+  }
+
+  

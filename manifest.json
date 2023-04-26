@@ -1,0 +1,41 @@
+{
+
+  "manifest_version": 2,
+  "name": "Domgrapper",
+  "version": "1.0",
+
+  "description": "search url related domain or using regex",
+
+  "icons": {
+    "48": "icons/matches-48.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "webNavigation",
+    "<all_urls>"
+  ],
+
+
+
+  "browser_action": {
+    "default_icon": "icons/matches.png",
+    "default_title": "Domgrapper",
+    "default_popup": "popup/domgrapper.html"
+  },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup/run-script.js"]
+    }
+  ]
+
+}
